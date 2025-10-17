@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-10-17T12:27:57.513952",
+  "total_steps": 100000,
+  "data_points": 1000,
+  "pearson_correlation": 0.7869267513375451,
+  "r_squared": 0.6192537119706625,
+  "mlm_stats": {
+    "mean": 0.5052538213282823,
+    "max": 0.663484513759613,
+    "min": 0.15161290764808655,
+    "std": 0.10480852619897836
+  },
+  "loss_stats": {
+    "initial": 8.95722484588623,
+    "final": 2.972820520401001,
+    "decrease": 5.9844043254852295
+  },
+  "comparison_with_50k": {
+    "50k_pearson_r": 0.6359,
+    "100k_pearson_r": 0.7869267513375451,
+    "improvement": 0.15102675133754506,
+    "improvement_percentage": 23.750078839054105
+  },
+  "goal_achieved": false
+}
