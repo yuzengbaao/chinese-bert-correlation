@@ -1,0 +1,32 @@
+{
+  "version": "v1.0.0",
+  "release_date": "2025-10-17",
+  "project_name": "Chinese BERT 100K Training Correlation Study",
+  "repository": "https://github.com/yuzengbaao/chinese-bert-correlation",
+  "key_metrics": {
+    "pearson_r": 0.7869,
+    "r_squared": 0.6193,
+    "p_value": "< 0.001",
+    "mlm_accuracy": 50.53,
+    "max_mlm_accuracy": 66.35,
+    "training_steps": 100000,
+    "training_time_hours": 22.5,
+    "dataset_sentences": 325537,
+    "vocabulary_size": 10049
+  },
+  "files": {
+    "model": "stage4_large_100k_final.pth",
+    "training_history": "training_history_100k.json",
+    "analysis_results": "analysis_100k_result.json",
+    "visualizations": [
+      "results/training_curves.png",
+      "results/correlation_analysis.png",
+      "results/comparison_50k_100k.png",
+      "results/loss_analysis.png"
+    ]
+  },
+  "citation": {
+    "format": "bibtex",
+    "text": "@misc{chinese_bert_correlation_2025,\n  author = {Your Name},\n  title = {Chinese BERT 100K Training Correlation Study},\n  year = {2025},\n  publisher = {GitHub},\n  version = {v1.0.0},\n  url = {https://github.com/yuzengbaao/chinese-bert-correlation}\n}"
+  }
+}
